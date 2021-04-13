@@ -4,13 +4,49 @@
 		<!--Template for CSS Project	
 			March 2020
 			Based upon: https://www.tourismpei.com/  -->
-			
+		<style>
+    
+    .navbar {
+  overflow: hidden;
+  background-color: white;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  height: 10%;
+  text-align: center;
+}
+    .header{
+      margin-top: 50px;
+      text-align: center;
+
+    }
+    .links{
+      float: left;
+      width: 15%;
+      height: 15%;
+    }
+    
+    .image{
+
+    }
+    .middle-text{
+
+    }
+    .left-text{
+
+    }
+    
+    .footer{
+      width:100%;
+      text-align: center;
+    }
+    </style>	
 				
 		<title>My Favourite Beaches</title>
 	</head>
 
 	<body>
-		<p >
+		<div class="navbar" >
 				<a href="https://www.tourismpei.com/pei-festivals-and-events" target="_blank"> Festivals and Events </a>
 				<a href="https://www.tourismpei.com/about-pei" target="_blank"> About PEI </a>
 				Planning a Trip:  <!-- make into a drop down -->
@@ -18,30 +54,37 @@
 					<a href="https://www.tourismpei.com/pei-accommodations" target="_blank">Where to Stay</a>
 					<a href="https://www.tourismpei.com/pei-things-to-do" target="_blank">What to do</a>
 			
-		</p>  <!-- end of navigation bar -->
+		</div>  <!-- end of navigation bar -->
 		
-		
-		<p>
+		<div class="header">
+		<h2>
 			My Favourite Beaches
 			
-		</p>  <!-- end of header --> 
+		</h2>  <!-- end of header --> 
+		</div>
 		
-		
+    
+    <div class="links">
 		<p >
 			LINKS <br>  
 			<!-- Make Links into an unordered list -->
-			<a href="https://www.tourismpei.com/pei-festivals-and-events" target="_blank"> 10 Quirky Things You Didn’t Know About PEI </a>
-			<a href="https://www.tourismpei.com/about-pei" target="_blank">Environment</a>
-			<a href="https://www.tourismpei.com/pei-package-offers" target="_blank">Getting Here</a>
-			<a href="https://www.tourismpei.com/pei-accommodations" target="_blank">Important Travel Information</a>
-			<a href="https://www.tourismpei.com/pei-things-to-do" target="_blank">Island Webcams</a>
-			
+			<un>
+      <li><a href="https://www.tourismpei.com/pei-festivals-and-events" target="_blank"> 10 Quirky Things You Didn’t Know About PEI </a></li>
+			<li><a href="https://www.tourismpei.com/about-pei" target="_blank">Environment</a></li>
+			<li><a href="https://www.tourismpei.com/pei-package-offers" target="_blank">Getting Here</a></li>
+			<li><a href="https://www.tourismpei.com/pei-accommodations" target="_blank">Important Travel Information</a></li>
+			<li><a href="https://www.tourismpei.com/pei-things-to-do" target="_blank">Island Webcams</a></li>
+			</un>
 		</p> <!-- end of left column -->
+    </div>
 		
-		
+    
+    <div class="image">
 		<p >
 			<img src="Media/beach1.jpg" alt="Beautiful beach" width = "200px"> 
-			
+		</div>
+
+    <div class= middle-text>	
 			ABOUT OUR BEACHES <br>
 			With beaches that sing and others that stun visitors with their pristine blend of rustic solitude and splendid red sand, Prince Edward Island's sandy expanses continue to receive raves from all over the world, including a nomination as one of Canada's natural wonders.
 			<br>
@@ -69,8 +112,10 @@
 			Others dream of returning. "PEI is the most beautiful, clean province we have seen, and the beaches are something us in Alberta only see in pictures," says Lori from Edmonton. Lori says she'll return for another PEI vacation soon. Such is the draw of PEI's beautiful beaches. And one thing is certain - she won't be alone.
 			
 		</p> <!-- end of center column -->
+		</div>
 		
-		
+
+    <div class="left-text">
 		<p >
 			On our Island province you are never far from the ocean and one of our numerous spectacular beaches. From the red sand beaches on the south shore to the white sand beaches on the north shore, Prince Edward Island offers a variety of unique and enjoyable beach experiences
 			<img src="Media/riptide.jpg" width = "200px" alt ="Riptide Info">
@@ -80,13 +125,14 @@
 			
 			
 		</p> <!-- end of right column -->
-		
+		</div>
 				
-		<p >
+    <div class="footer"
+  	<p >
 		   <a href="https://www.tourismpei.com/contact-us-page" target = "_blank" >Contact Us </a> 	
 		   2020 Prince Edward Island Tourism. All Rights Reserved.
 		</p> <!-- end of footer -->
-				
+		</div>		
 	</body>
 
 
